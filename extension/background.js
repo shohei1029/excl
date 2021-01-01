@@ -8,6 +8,8 @@
           }
 
           if (currentTab.url === tab.url) {
+            console.log(currentTab.url)
+            console.log(tab.url)
             chrome.tabs.remove(tab.id);
           }
         });
